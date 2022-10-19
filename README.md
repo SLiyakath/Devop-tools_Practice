@@ -1,2 +1,2 @@
 # Devop-tools_Practice
-Reop for Devop's practice
+Repo for Devop's practice
