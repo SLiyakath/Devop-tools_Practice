@@ -2,7 +2,7 @@
 
 for i in {1..9}
 do 
-	if docker container la -a | awk '{ print $NF }'	| grep C$i > /dev/null
+	if docker container ls -a | awk '{ print $NF }'	| grep C$i > /dev/null
 	then
 		echo "Deleting Container C$i"
 		docker container rm -f C$i > /dev/null
