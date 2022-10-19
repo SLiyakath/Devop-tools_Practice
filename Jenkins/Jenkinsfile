@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'This is build stage'
-                echo 'Edited/Added new line for poll SCM'
+                echo 'Added new line for poll SCM'
             }
         }
         stage('test') {
